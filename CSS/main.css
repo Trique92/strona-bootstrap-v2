@@ -1,0 +1,286 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.6rem;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+/* nawigacja */
+nav {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  font-size: 3rem;
+}
+
+.navbar-brand {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* header */
+header {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  position: relative;
+  height: 870px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.carousel-img-one {
+  background-image: url("../img/grafKar3.jpg");
+}
+
+.carousel-img-two {
+  background-image: url("../img/grafKar2.jpg");
+}
+
+.carousel-img-three {
+  background-image: url("../img/grafKar1.jpg");
+}
+
+.home-boxes {
+  padding: 5em 0;
+}
+
+.home-box i {
+  font-size: 4rem;
+}
+
+.home-box h3 {
+  font-size: 2.6rem;
+}
+
+.home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url("../IMG/homepart2.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.home-brand h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.footer-p {
+  font-size: 2rem;
+}
+
+.aboutus-hero {
+  background-image: url("../IMG/aboutus/highway-g81714c985_640.jpg");
+  background-position: bottom;
+}
+
+.aboutus-info {
+  background-color: #f8f8f8;
+}
+
+.aboutus-info .container {
+  padding: 2em 0.5em;
+}
+
+.aboutus-text {
+  padding: 1.8em;
+}
+
+.aboutus-text h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-decoration: underline #007bff;
+          text-decoration: underline #007bff;
+}
+
+.aboutus-text-right {
+  text-align: right;
+}
+
+.aboutus-img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.aboutus-bottom i {
+  font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.service-hero {
+  background-image: url("../IMG/uslugi/car-gd2c389321_1280.jpg");
+  background-position: 0 75%;
+}
+
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.service-hero-box p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.service-hero-box.box-one {
+  background-image: url("../IMG/services/motor-g1dee76af9_640.jpg");
+}
+
+.service-hero-box.box-two {
+  background-image: url("../IMG/services/winter-tires-gf525b2ad2_640.jpg");
+}
+
+.service-hero-box.box-three {
+  background-image: url("../IMG/services/bezpieczniki.JPG");
+}
+
+.service-hero-box.box-four {
+  background-image: url("../IMG/services/motomar-mechanika-samochodowa-warsztat-naprawa-podkarpackie-wisniowa-486831652.jpg");
+}
+
+.projects-hero {
+  background-image: url(../IMG/projekty/project-hero.jpg);
+  background-position: center;
+}
+
+.projects img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.contact-hero {
+  background-image: url(../IMG/contact/shelby-gb3562ef4a_1920.jpg);
+  background-position: 0 40%;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+.contact-logo {
+  font-size: 3rem;
+}
+
+.contact input, .contact select, .contact textarea {
+  font-size: 1.6rem;
+}
+
+.contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}
+
+@media (min-width: 992px) {
+  .aboutus-info .container {
+    padding: 0;
+  }
+  .aboutus-shadow {
+    -webkit-box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+            box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  .aboutus-text {
+    padding: 5em 0;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  .aboutus-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+  .aboutus-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+  .aboutus-img {
+    height: auto;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+}
+
+@media (max-width: 820px) {
+  .carousel-item {
+    height: 680px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
